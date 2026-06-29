@@ -44,7 +44,8 @@ The ping test was successful with 0% packet loss.
 
 After connecting to the VM via SSH, the following commands were used:
 
- echo "Hello i2i Academy!" > hello.txt
+ echo "Hello i2i Academy! " > hello.txt
+ 
  cat hello.txt
 
 Output:
