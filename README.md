@@ -31,7 +31,7 @@ I grabbed its public IP (`34.135.237.183`) and ran a quick ping test from my loc
  ping 34.135.237.183
 Result: The test was fully successful with 0% packet loss, meaning the network configuration was spot on.
 
-# 3. SSH Connection & Linux Basics
+#3. SSH Connection & Linux Basics
 Once connectivity was confirmed, I SSH'd into the instance using the GCP browser terminal and ran the following commands to create and verify a simple text file:
 
 Bash
