@@ -35,7 +35,6 @@ Result: The test was fully successful with 0% packet loss, meaning the network c
 - Once connectivity was confirmed, 
 I SSH'd into the instance using the GCP browser terminal and ran the following commands to create and verify a simple text file:
 
-Bash
 
 # Creating the file and writing the text
 echo "Hello i2i Academy!" > hello.txt
