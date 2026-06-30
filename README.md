@@ -1,65 +1,55 @@
 # i2i-Academy-IntroductionToCloud-1
-This repository was created for i2i Academy Introduction to Cloud homework.
+
+Welcome! This repository was created as part of my **Introduction to Cloud** course homework at **i2i Academy**.
 
 # Project Overview
 
-The purpose of this homework is to create a basic VM( Virtual Machine) on a cloud platform and verify basic cloud connectivity and linux usage.
+The main gol this assignment was to get hands-on experience with cloud infrastructure. I spun up a basic Linux Virtual Machine (VM) on a cloud platform,
+configured its connectivity, and performed some fundamental linux operations.
 
-In this homework, GCP (Google Cloud Platform) was used as the cloud service provider.
-
-# Completed Tasks
-
-The following tasks were completed:
-
-- Created a Google Cloud Platform account
-- Created a new Google Cloud project
-- Enabled Compute Engine
-- Created a basic Linux Virtual Machine
-- Obtained the public IP address of the VM
-- Performed a ping test from the local computer to the VM
-- Connected to the VM using SSH
-- Created a text file named -hello.txt-
-- Wrote the following text into the file:
-   " Hello i2i Academy! "
-- Read the content of the file on the terminal using the - cat - command
+For this homework, I choose Google Cloud Platform(GCP) as my cloud service provider.
 
 # Cloud Environment
-- Item	Description
-- Cloud Provider	Google Cloud Platform
-- Service	Compute Engine
-- Virtual Machine Name	cloud-homework-vm
-- Operating System	Debian GNU/Linux
-- Zone	us-central1-b
-- Connection Method	SSH in browser
-- Commands Used
-- Ping Test
+- Item: Description
+- Cloud Provider:	Google Cloud Platform
+- Service:	Compute Engine
+- Virtual Machine Name:	cloud-homework-vm
 
-The following command was used from the local computer terminal:
+# Step-by-Step Walkthrough
 
-ping 34.135.237.183  
+ #1 Setting up the Cloud Infrastructure
+* Set up my GCP account and created a brand new project.
+* Enabled the **Compute Engine API**.
+* Configured and launched a lightweight Debian Linux Virtual Machine named `cloud-homework-vm`.
+* Allocated a public IP address for the VM to verify external connectivity.
 
-The ping test was successful with 0% packet loss.
+## 2. Connectivity & Ping Test
+To make sure the VM was up, running, and reachable from the outside world,
+I grabbed its public IP (`34.135.237.183`) and ran a quick ping test from my local machine's terminal:
 
-# SSH and File Creation
+ ''Bash
+ ping 34.135.237.183
+Result: The test was fully successful with 0% packet loss, meaning the network configuration was spot on.
 
-After connecting to the VM via SSH, the following commands were used:
+### 3. SSH Connection & Linux Basics
+Once connectivity was confirmed, I SSH'd into the instance using the GCP browser terminal and ran the following commands to create and verify a simple text file:
 
- echo "Hello i2i Academy! " > hello.txt
- 
- cat hello.txt
+Bash
 
-Output:
+# Creating the file and writing the text
+echo "Hello i2i Academy!" > hello.txt
 
-Hello i2i Academy!
+# Verifying the file content
+cat hello.txt
+
+Terminal Output:
+Plaintext:  Hello i2i Academy!
+
 
 # Repository Content
 
 This repository contains only the README file because this homework does not include source code or configuration files.
 According to the homework requirements, screenshots and homework instruction documents are not uploaded to this repository.
 
-Notes
-The homework document and screenshots are included only in the official submission document.
-The final homework document will be submitted through Google Classroom.
-The repository is public as required by the homework instructions.
-
+Note: Following the official homework guidelines, screenshots and the final PDF assignment document are not uploaded here. Those files, along with this repository link, have been submitted directly via Google Classroom. This repository is kept public as requested by the instructions.
   
