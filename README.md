@@ -24,7 +24,7 @@ For this homework, I choose Google Cloud Platform(GCP) as my cloud service provi
 * Allocated a public IP address for the VM to verify external connectivity.
 
 #2. Connectivity & Ping Test
-To make sure the VM was up, running, and reachable from the outside world,
+- To make sure the VM was up, running, and reachable from the outside world,
 I grabbed its public IP (`34.135.237.183`) and ran a quick ping test from my local machine's terminal:
 
  ''Bash
@@ -32,7 +32,7 @@ I grabbed its public IP (`34.135.237.183`) and ran a quick ping test from my loc
 Result: The test was fully successful with 0% packet loss, meaning the network configuration was spot on.
 
 #3. SSH Connection & Linux Basics
-Once connectivity was confirmed, 
+- Once connectivity was confirmed, 
 I SSH'd into the instance using the GCP browser terminal and ran the following commands to create and verify a simple text file:
 
 Bash
